@@ -1,1 +1,0 @@
-require("doom-one").setup()
