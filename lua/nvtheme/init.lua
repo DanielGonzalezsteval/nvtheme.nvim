@@ -13,7 +13,8 @@ M.config = {
 	}
 }
 
-M.colors = require("nvtheme.themes." .. M.config.theme).colors
+M.theme = require("nvtheme.themes." .. M.config.theme)
+M.colors = M.theme.colors
 
 M.setup = function(opts)
 	opts = opts or M.config
@@ -33,6 +34,11 @@ M.setup = function(opts)
 		defaults = require("nvtheme.integrations.defaults"),
 		blink = require("nvtheme.integrations.blink"),
 	}
+		if M.theme.polish_hl then
+			for key, val in pairs(M.theme.polish_hl) do
+				vim.tbl_deep_extend("force", integrations.key, key)
+			end
+		end
 
 	result = vim.tbl_deep_extend("force", result, integrations.blink)
 
@@ -41,6 +47,7 @@ M.setup = function(opts)
 			result = vim.tbl_deep_extend("force", result, fields)
 		end
 	end
+
 
 	if opts.transparency then
 		transparent = require("nvtheme.transparent")
