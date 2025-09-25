@@ -15,6 +15,7 @@ M.config = {
 
 M.themes = require("nvtheme.themes." .. M.config.theme)
 M.colors = M.themes.colors
+M.base16 = M.themes.base16
 
 M.setup = function(opts)
 	opts = opts or {}
@@ -34,6 +35,7 @@ M.setup = function(opts)
 		telescope = require("nvtheme.integrations.telescope"),
 		lsp = require("nvtheme.integrations.lsp"),
 		defaults = require("nvtheme.integrations.defaults"),
+		syntax = require("nvtheme.integrations.syntax"),
 		blink = require("nvtheme.integrations.blink"),
 	}
 	result = vim.tbl_deep_extend("force", result, integrations.blink)
