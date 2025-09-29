@@ -1,9 +1,9 @@
-local theme = require("nvtheme").base16
+local theme = require("nvtheme").base_16
 local base30 = require("nvtheme").colors
-
 local opts = require("nvtheme").config
 
 return {
+
 	["@variable"] = { fg = theme.base05 },
 	["@variable.builtin"] = { fg = theme.base09 },
 	["@variable.parameter"] = { fg = theme.base08 },

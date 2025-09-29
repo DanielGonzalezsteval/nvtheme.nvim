@@ -1,4 +1,4 @@
-local theme = require("nvtheme").base16
+local theme = require("nvtheme").base_16
 
 return {
 	Boolean = { fg = theme.base09 },
