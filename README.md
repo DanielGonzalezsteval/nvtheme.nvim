@@ -5,7 +5,6 @@ Extracted version of <a href="https://github.com/nvchad/nvchad">nvchad</a> theme
 # Nvtheme - [nvchad](https://github.com/nvchad/nvchad) themes.
 <!--toc:start-->
 - [Installation 🔌](#installation-🔌)
-- [Integrations 💯](#integrations-💯)
 - [Configuration 🛠️](#configuration-🛠️)
 - [Contribution 🤝](#contribution-🤝)
 - [Credits 🔥](#credits-🔥)
@@ -50,13 +49,6 @@ vim.pack.add({
 vim.cmd("colorscheme onedark")
 ```
 
-# Integrations 💯
-- ✅ BlinkCmp
-- ✅ Telescope
-- ✅ Treesitter
-- ✅ Neogit
-
-
 # Configuration 🛠️
 #### default config values:
 ```lua
@@ -74,21 +66,28 @@ opts = {
 }
 ```
 
+### Integrations 💯
+- ✅ BlinkCmp
+- ✅ Telescope
+- ✅ Treesitter
+- ✅ Neogit
+
+
 # Contribution 🤝
 Any contribution is welcome.
 
-## Add new theme 🆕
+### Add new theme 🆕
 1. Copy your favorite theme from the [nvchad themes](https://github.com/nvchad/base46)
 2. Paste them into [nvtheme themes](./lua/nvtheme/themes/) directory location at:
 `./lua/nvtheme/themes/`
 3. Change to your theme in your configuration.
 
-## Supported features 🎇
+### Supported features 🎇
 - ✅ Table for base30 colors called `colors`
 - ✅ Table for base16 colors called `base16`
 - ✅ Table for theme specific highlights called `polish_hl` (please drop the name of the integration and only add your configuration to the `polish_hl` table)
 
-## Fix bugs 🐛
+### Fix bugs 🐛
 Just open an issue or PR about it.
 
 # Credits 🔥
