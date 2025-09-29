@@ -13,16 +13,16 @@ Extracted version of <a href="https://github.com/nvchad/nvchad">nvchad</a> theme
 <h3> 
 <details>
 <summary> onedark </summary>
-<img href="./screenshots/onedark-1.png">
-<img href="./screenshots/onedark-2.png">
+<img src="./screenshots/onedark-1.png">
+<img src="./screenshots/onedark-2.png">
 </details>
 </h3>
 
 <h3>
 <details>
 <summary> doom (called doomchad) </summary>
-<img href="./screenshots/doom-1.png">
-<img href="./screenshots/doom-2.png">
+<img src="./screenshots/doom-1.png">
+<img src="./screenshots/doom-2.png">
 </details>
 </h3>
 
