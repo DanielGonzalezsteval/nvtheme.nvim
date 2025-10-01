@@ -37,7 +37,7 @@ just return this
     opts = {}
 }
 
-vim.cmd("colorscheme onedark")
+vim.cmd("colorscheme nvtheme")
 ```
 
 ### Nvim native package manager (pack)
@@ -46,7 +46,7 @@ vim.pack.add({
     "github.com/PoXel6/nvtheme.nvim"
 })
 
-vim.cmd("colorscheme onedark")
+vim.cmd("colorscheme nvtheme")
 ```
 
 # Configuration 🛠️
