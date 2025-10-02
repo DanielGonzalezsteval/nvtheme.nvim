@@ -10,7 +10,7 @@ M.config = {
 		lsp        = true,
 		defaults   = true,
 		blink      = true,
-		syntax = true,
+		syntax     = true,
 	}
 }
 
@@ -21,13 +21,6 @@ M.base_16 = M.themes.base_16
 M.setup = function(opts)
 	opts = opts or {}
 	opts = vim.tbl_deep_extend("force", opts, M.config)
-
-	vim.api.nvim_command('hi clear')
-	if vim.fn.exists('syntax_on') then
-		vim.api.nvim_command('syntax reset')
-	end
-
-	vim.g.colors_name = 'nvtheme'
 
 	local result = {}
 	local integrations = {
